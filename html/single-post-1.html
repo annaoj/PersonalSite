@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>TITLE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+
+	<!-- Font -->
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+	<!-- Stylesheets -->
+
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+
+	<link href="common-css/ionicons.css" rel="stylesheet">
+
+
+	<link href="single-post-2/css/styles.css" rel="stylesheet">
+
+	<link href="single-post-2/css/responsive.css" rel="stylesheet">
+
+</head>
+<body >
+
+	<header>
+		<div class="container-fluid position-relative no-side-padding">
+
+			<a href="#" class="logo"><b>Anna Jimenez</b></a>
+
+			<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="ion-navicon"></i></div>
+
+			<ul class="main-menu visible-on-click" id="main-menu">
+				<li><a href="index.html">Home</a></li>
+			</ul><!-- main-menu -->
+		</div><!-- conatiner -->
+	</header>
+
+	<div class="slider">
+
+	</div><!-- slider -->
+
+	<section class="post-area">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-1 col-md-0"></div>
+				<div class="col-lg-10 col-md-12">
+
+					<div class="main-post">
+
+						<div class="post-top-area">
+
+							<h5 class="pre-title">TECHNOLOGY</h5>
+
+							<h3 class="title"><a href="#"><b>Git Cheat Sheet</b></a></h3>
+
+							<div class="post-info">
+
+								<div class="left-area">
+									<a class="avatar" href="#"><img src="images/laptopgirl.png" alt="Profile Image"></a>
+								</div>
+
+								<div class="middle-area">
+									<a class="name" href="#"><b>Anna Jimenez</b></a>
+									<h6 class="date">on Jan 6, 2019</h6>
+								</div>
+
+							</div><!-- post-info -->
+
+							<p class="para">Git is one of the most popular distributed version control system
+								that supports collaboration within developers.I decided to create this cheat
+								sheet to provide a quick reference to commands that are useful
+								for working and collaborating in a Git repository.</p>
+								<p class="para">Ther are so many commands and when should you use it? I think the best way to divide it by actions</p>
+								<p class="para">I will constantly update this post based on my experience with Git.</p>
+
+						</div><!-- post-top-area -->
+
+						<div class="post-bottom-area">
+							<h3>1.Initialize a repo</h3>
+								<p class="">Create an empty git repo or reinitialize an existing one</p><br/>
+									<ul class="list-group">
+									  <li class="list-group-item">
+												<p class="codessnip">$ git init</p>
+										</li>
+									</ul>
+
+								<h3>2.Check status</h3>
+									<p class="">Not sure what you've done?Git status will show you.</p><br/>
+										<ul class="list-group">
+										<li class="list-group-item">
+												<p class="codessnip">$ git status</p>
+										</li>
+									</ul>
+								<h3>3.Clone remote repository</h3>
+										<ul class="list-group">
+										<li class="list-group-item">
+												<p class="codessnip">$ git clone https://github.com/annaoj/SDPre.git</p>
+										</li>
+									</ul>
+
+									<h3>4. Commit your changes </h3>
+											<ul class="list-group">
+											<li class="list-group-item">
+												<p class="codessnip">	$git add filename.java &nbsp;
+													 <i>or if you want to add all changes </i> &nbsp;
+													 $git add --all	</p>
+											</li>
+											<li class="list-group-item">
+													<p class="codessnip">
+														git commit -m "message"
+													</p>
+											</li>
+											<li class="list-group-item">
+													<p class="codessnip">
+														git push origin master</p>
+											</li>
+										</ul>
+
+										<h3>5.Get changes from remote repo</h3>
+											<p class="">You nee to use pull and make sure name of the branch is correct.</p><br/>
+												<ul class="list-group">
+												<li class="list-group-item">
+														<p class="codessnip">git pull origin branchname</p>
+												</li>
+											</ul>
+
+							<ul class="tags">
+								<li><a href="#">Git</a></li>
+								<li><a href="#">Github</a></li>
+								<li><a href="#">Version control</a></li>
+							</ul>
+						</div><!-- post-bottom-area -->
+					</div><!-- main-post -->
+				</div><!-- col-lg-8 col-md-12 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+	</section><!-- post-area -->
+	<footer>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-section">
+						<ul class="icons">
+							<li><a href="#"><i class="ion-social-github-outline"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+							<li><a href="#"><i class="ion-social-pinterest-outline"></i></a></li>
+						</ul>
+
+					</div><!-- footer-section -->
+				</div><!-- col-lg-4 col-md-6 -->
+
+				<div class="col-lg-4 col-md-6">
+						<div class="footer-section">
+						<h4 class="title"><b>CATEGORIES</b></h4>
+						<ul>
+							<li><a href="#">TECHNOLOGY</a></li>
+							<li><a href="#">PROJECTS</a></li>
+							<li><a href="#">ABOUT ME</a></li>
+						</ul>
+					</div><!-- footer-section -->
+				</div><!-- col-lg-4 col-md-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</footer>
+	<!-- SCIPTS -->
+
+	<script src="common-js/jquery-3.1.1.min.js"></script>
+
+	<script src="common-js/tether.min.js"></script>
+
+	<script src="common-js/bootstrap.js"></script>
+
+	<script src="common-js/scripts.js"></script>
+
+</body>
+</html>
